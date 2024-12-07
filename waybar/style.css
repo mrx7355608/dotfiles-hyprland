@@ -17,6 +17,7 @@ window#waybar {
 
 .modules-left,
 .modules-right {
+  border: 2px solid #1e1e2e;
   background: rgba(17, 17, 27, 0.8);
   margin: 5px 10px;
   padding: 0 5px;
@@ -96,5 +97,5 @@ window#waybar {
   padding: 0 10px;
   font-size: 25px;
   transition: color 0.5s;
-  color: #1793d1;
+  color: #cba6f7;
 }
