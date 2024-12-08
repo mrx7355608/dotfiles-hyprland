@@ -17,7 +17,7 @@
     }
   },
   "pulseaudio": {
-    "format": "<span color=\"#f9e2af\">{icon}</span>  {volume}%",
+    "format": "<span color=\"#8839ef\">{icon}</span>  {volume}%",
     "format-bluetooth": "{icon} {volume}%  {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
     "format-muted": " {format_source}",
@@ -35,7 +35,7 @@
     "on-click": "pavucontrol"
   },
   "network": {
-    "format-wifi": "<span color=\"#f9e2af\"> </span>  {essid}",
+    "format-wifi": "<span color=\"#8839ef\"> </span>  {essid}",
     "format-ethernet": "{ipaddr}/{cidr} ",
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
@@ -43,11 +43,11 @@
     "on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
   },
   "cpu": {
-    "format": "<span color=\"#f9e2af\"> </span> {usage}%",
+    "format": "<span color=\"#8839ef\"> </span> {usage}%",
     "tooltip": true
   },
   "memory": {
-    "format": "<span color=\"#f9e2af\"> </span> {}%",
+    "format": "<span color=\"#8839ef\"> </span> {}%",
     "tooltip": true
   },
   "temperature": {
@@ -55,14 +55,14 @@
     "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
     "critical-threshold": 100,
     "format-critical": " {temperatureC}",
-    "format": "<span color=\"#f9e2af\"></span> {temperatureC}°C"
+    "format": "<span color=\"#8839ef\"></span> {temperatureC}°C"
   },
   "battery": {
     "states": {
       "warning": 30,
       "critical": 15
     },
-    "format": "<span color=\"#f9e2af\">{icon}</span>  {capacity}%",
+    "format": "<span color=\"#8839ef\">{icon}</span>  {capacity}%",
     "format-full": "{icon}  {capacity}%",
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
